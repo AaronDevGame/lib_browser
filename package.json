@@ -1,0 +1,22 @@
+{
+  "name": "browser_lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-browser": "^10.0.4",
+    "@emurgo/cardano-serialization-lib-nodejs": "^10.0.4",
+    "buffer": "^6.0.3",
+    "nami-wallet-api": "^1.1.9"
+  }
+}
